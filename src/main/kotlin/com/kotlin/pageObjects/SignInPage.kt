@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit
 
 class SignInPage (private val driver: WebDriver) {
     private val url = "https://my.whisk-dev.com/"
-    private fun open() = driver.get(url)
+    private fun openSignInPage() = driver.get(url)
     private val wait = WebDriverWait(driver, 10)
 
     init {
@@ -34,7 +34,7 @@ class SignInPage (private val driver: WebDriver) {
     lateinit var letsGetCookingButton: WebElement
 
     fun signInByEmail(){
-        open()
+        openSignInPage()
         wait.until { emailInput.isDisplayed }
         emailInput.sendKeys("ipozhidaev13@gmail.com")
         continueButton.click()
