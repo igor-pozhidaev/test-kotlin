@@ -4,17 +4,16 @@ import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.support.FindBy
 import org.openqa.selenium.support.PageFactory
-import org.openqa.selenium.support.ui.ExpectedConditions
 import org.openqa.selenium.support.ui.WebDriverWait
-import java.util.concurrent.TimeUnit
 
-class SignInPage (private val driver: WebDriver) {
+class SignInPage(private val driver: WebDriver) {
     private val url = "https://my.whisk-dev.com/"
     private fun openSignInPage() = driver.get(url)
     private val wait = WebDriverWait(driver, 10)
+    val timestamp = System.currentTimeMillis()
 
     init {
-        PageFactory.initElements(driver,this)
+        PageFactory.initElements(driver, this)
     }
 
     //First form
@@ -36,11 +35,11 @@ class SignInPage (private val driver: WebDriver) {
     fun signInByEmail(){
         openSignInPage()
         wait.until { emailInput.isDisplayed }
-        emailInput.sendKeys("ipozhidaev13@gmail.com")
+        emailInput.sendKeys("${timestamp}@test.com")
         continueButton.click()
-        wait.until { pwdInput.isDisplayed }
-        pwdInput.sendKeys("testKotlin")
-        logInButton.click()
+        //wait.until { pwdInput.isDisplayed }
+        //pwdInput.sendKeys("testKotlin")
+        //logInButton.click()
         wait.until { letsGetCookingButton.isDisplayed }
         letsGetCookingButton.click()
     }
