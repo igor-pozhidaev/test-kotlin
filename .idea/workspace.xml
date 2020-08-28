@@ -18,13 +18,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4870145a-cd0c-4e1f-851d-bf0517105fa0" name="Default Changelist" comment="add fuel">
+    <list default="true" id="4870145a-cd0c-4e1f-851d-bf0517105fa0" name="Default Changelist" comment="add ui tests, page objects">
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/kotlin/BackendTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/kotlin/pageObjects/NavigationPage.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/kotlin/pageObjects/ShoppingPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/kotlin/pageObjects/ShoppingPage.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/kotlin/pageObjects/SignInPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/kotlin/pageObjects/SignInPage.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/kotlin/UITests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/kotlin/UITests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/kotlin/BackendTest.kt" beforeDir="false" />
     </list>
     <list id="a8864189-6562-44a2-9c2c-3f233ba8df7e" name="Revert &quot;init&quot;" comment="Revert &quot;init&quot;&#10;&#10;This reverts commit c657f654" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,12 +73,30 @@
       <recent name="$PROJECT_DIR$/src/main/kotlin/com/kotlin/driver" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.Tests">
+    <configuration name="BackendTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-kotlin" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kotlin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kotlin" />
+      <option name="MAIN_CLASS_NAME" value="com.kotlin.BackendTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tests" type="JUnit" factoryName="JUnit">
       <module name="test-kotlin" />
       <useClassPathOnly />
-      <option name="PACKAGE_NAME" value="com.kotlin.uitest" />
-      <option name="MAIN_CLASS_NAME" value="com.kotlin.UITests" />
+      <option name="PACKAGE_NAME" value="com.kotlin" />
+      <option name="MAIN_CLASS_NAME" value="com.kotlin.BackendTests" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
@@ -87,6 +104,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.Tests" />
+      <item itemvalue="JUnit.BackendTest.test2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BackendTest.test2" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -104,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598487567334</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add ui tests, page objects">
+      <created>1598551638315</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598551638315</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,13 +154,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add fuel" />
-    <option name="LAST_COMMIT_MESSAGE" value="add fuel" />
+    <MESSAGE value="add ui tests, page objects" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ui tests, page objects" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1673" y="335" width="1084" height="762" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598539165694">
+    <state x="1673" y="335" width="1084" height="788" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598581703896">
       <screen x="0" y="0" width="3440" height="1413" />
     </state>
-    <state x="1673" y="335" width="1084" height="762" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1413@0.0.3440.1413" timestamp="1598539165694" />
+    <state x="1673" y="335" width="1084" height="788" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1413@0.0.3440.1413" timestamp="1598581703896" />
     <state x="1939" y="479" width="542" height="394" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598464057715">
       <screen x="0" y="0" width="3440" height="1413" />
     </state>
@@ -136,10 +170,10 @@
       <screen x="0" y="0" width="3440" height="1413" />
     </state>
     <state x="1998" y="398" width="424" height="582" key="#com.intellij.ide.macro.MacrosDialog/0.0.3440.1413@0.0.3440.1413" timestamp="1598480101002" />
-    <state x="1947" y="469" width="525" height="414" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1598482895497">
+    <state x="1947" y="469" width="525" height="414" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1598581700929">
       <screen x="0" y="0" width="3440" height="1413" />
     </state>
-    <state x="1947" y="469" width="525" height="414" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.3440.1413@0.0.3440.1413" timestamp="1598482895497" />
+    <state x="1947" y="469" width="525" height="414" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.3440.1413@0.0.3440.1413" timestamp="1598581700929" />
     <state x="1993" y="465" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1598465972784">
       <screen x="0" y="0" width="3440" height="1413" />
     </state>
@@ -164,33 +198,38 @@
       <screen x="0" y="0" width="3440" height="1413" />
     </state>
     <state x="2025" y="357" width="369" height="638" key="Github.UntrackedFilesDialog/0.0.3440.1413@0.0.3440.1413" timestamp="1598483588144" />
-    <state width="1860" height="366" key="GridCell.Tab.0.bottom" timestamp="1598551481037">
+    <state width="1576" height="399" key="GridCell.Tab.0.bottom" timestamp="1598581633471">
       <screen x="0" y="0" width="3440" height="1413" />
     </state>
-    <state width="1860" height="366" key="GridCell.Tab.0.bottom/0.0.3440.1413@0.0.3440.1413" timestamp="1598551481037" />
-    <state width="1860" height="366" key="GridCell.Tab.0.center" timestamp="1598551481037">
+    <state width="1576" height="399" key="GridCell.Tab.0.bottom/0.0.3440.1413@0.0.3440.1413" timestamp="1598581633471" />
+    <state width="1576" height="399" key="GridCell.Tab.0.center" timestamp="1598581633470">
       <screen x="0" y="0" width="3440" height="1413" />
     </state>
-    <state width="1860" height="366" key="GridCell.Tab.0.center/0.0.3440.1413@0.0.3440.1413" timestamp="1598551481037" />
-    <state width="1860" height="366" key="GridCell.Tab.0.left" timestamp="1598551481036">
+    <state width="1576" height="399" key="GridCell.Tab.0.center/0.0.3440.1413@0.0.3440.1413" timestamp="1598581633470" />
+    <state width="1576" height="399" key="GridCell.Tab.0.left" timestamp="1598581633470">
       <screen x="0" y="0" width="3440" height="1413" />
     </state>
-    <state width="1860" height="366" key="GridCell.Tab.0.left/0.0.3440.1413@0.0.3440.1413" timestamp="1598551481036" />
-    <state width="1860" height="366" key="GridCell.Tab.0.right" timestamp="1598551481037">
+    <state width="1576" height="399" key="GridCell.Tab.0.left/0.0.3440.1413@0.0.3440.1413" timestamp="1598581633470" />
+    <state width="1576" height="399" key="GridCell.Tab.0.right" timestamp="1598581633470">
       <screen x="0" y="0" width="3440" height="1413" />
     </state>
-    <state width="1860" height="366" key="GridCell.Tab.0.right/0.0.3440.1413@0.0.3440.1413" timestamp="1598551481037" />
-    <state x="1748" y="335" width="924" height="682" key="Maven.ArtifactSearchDialog" timestamp="1598474112762">
+    <state width="1576" height="399" key="GridCell.Tab.0.right/0.0.3440.1413@0.0.3440.1413" timestamp="1598581633470" />
+    <state x="1748" y="335" width="924" height="682" key="Maven.ArtifactSearchDialog" timestamp="1598576316136">
       <screen x="0" y="0" width="3440" height="1413" />
     </state>
-    <state x="1748" y="335" width="924" height="682" key="Maven.ArtifactSearchDialog/0.0.3440.1413@0.0.3440.1413" timestamp="1598474112762" />
+    <state x="1748" y="335" width="924" height="682" key="Maven.ArtifactSearchDialog/0.0.3440.1413@0.0.3440.1413" timestamp="1598576316136" />
     <state x="1711" y="312" key="SettingsEditor" timestamp="1598484739572">
       <screen x="0" y="0" width="3440" height="1413" />
     </state>
     <state x="1711" y="312" key="SettingsEditor/0.0.3440.1413@0.0.3440.1413" timestamp="1598484739572" />
-    <state x="1810" y="413" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1598487598071">
+    <state x="1810" y="413" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1598551646384">
       <screen x="0" y="0" width="3440" height="1413" />
     </state>
-    <state x="1810" y="413" width="800" height="526" key="Vcs.Push.Dialog.v2/0.0.3440.1413@0.0.3440.1413" timestamp="1598487598071" />
+    <state x="1810" y="413" width="800" height="526" key="Vcs.Push.Dialog.v2/0.0.3440.1413@0.0.3440.1413" timestamp="1598551646384" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/test_kotlin$BackendTest_test1.ic" NAME="BackendTest.test1 Coverage Results" MODIFIED="1598559822734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.kotlin.*</FILTER>
+    </SUITE>
   </component>
 </project>
